@@ -49,7 +49,7 @@ const myFunction = () => {
         ),
         React.createElement("button", {
             onClick: () => {
-                console.log(data)
+                console.log(data) // data ready to send API
             },
             className: "btn btn-outline-secondary"
         },
